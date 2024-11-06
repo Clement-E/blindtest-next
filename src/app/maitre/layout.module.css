@@ -1,0 +1,39 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "addspotify scoreboard mediaplayer"
+    "addplayer scoreboard mediaplayer"
+    "rank scoreboard mediaplayer"
+    "rank scoreboard mediaplayer"
+    "rank scoreboard playlist"
+    "rank scoreboard playlist"
+    "rank scoreboard playlist";
+    gap: 2rem;
+}
+
+.addspotify {
+    grid-area: addspotify;
+    border: #f3f827 solid 2px;
+
+}
+.addplayer {
+    grid-area: addplayer;
+    border: #27f8eb solid 2px;
+}
+.rank {
+    grid-area: rank;
+    border: #2bf827 solid 2px;
+}
+.scoreboard {
+    grid-area: scoreboard;
+    border: #ffab07 solid 2px;
+}
+.mediaplayer {
+    grid-area: mediaplayer;
+    border: #f827e3 solid 2px;
+}
+.playlist {
+    grid-area: playlist;
+    border: #623bbb solid 2px;
+}

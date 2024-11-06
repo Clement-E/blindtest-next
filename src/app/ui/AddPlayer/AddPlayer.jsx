@@ -3,7 +3,9 @@ import "./AddPlayer.css";
 function AddPlayer() {
 
   return ( 
-    <>Click me</>
+    <h1 className="text-3xl font-bold bg-red-500 text-white">
+      Hello world!
+    </h1>
   );
 
 }

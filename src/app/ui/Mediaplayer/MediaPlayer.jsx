@@ -1,13 +1,6 @@
+'use client'
+
 import "./MediaPlayer.css";
-import IconButton from "@mui/material/Box";
-import placeholder from "../../assets/placeholder.png"
-import {
-  SkipPreviousRounded,
-  SkipNextRounded,
-  PauseCircleFilled,
-  PlayCircleFilled,
-} from "@mui/icons-material";
-import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { useState } from 'react';
 
 
