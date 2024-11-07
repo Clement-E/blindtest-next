@@ -1,10 +1,11 @@
 import "./Playlist.css";
+import { Button } from '@/components/ui/button'
 
 function Playlist() {
 
   return (
     <>
-      Playlist
+      <Button variant="outline">Button yolo</Button>
     </>
   );
 }
