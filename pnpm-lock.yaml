@@ -41,6 +41,9 @@ importers:
       next-auth:
         specifier: 5.0.0-beta.19
         version: 5.0.0-beta.19(next@15.0.0-canary.56(react-dom@19.0.0-rc-4d577fd2-20241104(react@19.0.0-rc-4d577fd2-20241104))(react@19.0.0-rc-4d577fd2-20241104))(react@19.0.0-rc-4d577fd2-20241104)
+      next-themes:
+        specifier: ^0.4.3
+        version: 0.4.3(react-dom@19.0.0-rc-4d577fd2-20241104(react@19.0.0-rc-4d577fd2-20241104))(react@19.0.0-rc-4d577fd2-20241104)
       react:
         specifier: 19.0.0-rc-4d577fd2-20241104
         version: 19.0.0-rc-4d577fd2-20241104
@@ -776,6 +779,12 @@ packages:
         optional: true
       nodemailer:
         optional: true
+
+  next-themes@0.4.3:
+    resolution: {integrity: sha512-nG84VPkTdUHR2YeD89YchvV4I9RbiMAql3GiLEQlPvq1ioaqPaIReK+yMRdg/zgiXws620qS1rU30TiWmmG9lA==}
+    peerDependencies:
+      react: ^16.8 || ^17 || ^18 || ^19 || ^19.0.0-rc
+      react-dom: ^16.8 || ^17 || ^18 || ^19 || ^19.0.0-rc
 
   next@15.0.0-canary.56:
     resolution: {integrity: sha512-Qf951CQb2dICry5QzkhpoFX6VG0er2WSdMODeeylyGpP0JPT15C4HWjoJ6Jeoqw+J8i+QvDpLR501o+oY5Qaow==}
@@ -1819,6 +1828,11 @@ snapshots:
       '@auth/core': 0.32.0
       next: 15.0.0-canary.56(react-dom@19.0.0-rc-4d577fd2-20241104(react@19.0.0-rc-4d577fd2-20241104))(react@19.0.0-rc-4d577fd2-20241104)
       react: 19.0.0-rc-4d577fd2-20241104
+
+  next-themes@0.4.3(react-dom@19.0.0-rc-4d577fd2-20241104(react@19.0.0-rc-4d577fd2-20241104))(react@19.0.0-rc-4d577fd2-20241104):
+    dependencies:
+      react: 19.0.0-rc-4d577fd2-20241104
+      react-dom: 19.0.0-rc-4d577fd2-20241104(react@19.0.0-rc-4d577fd2-20241104)
 
   next@15.0.0-canary.56(react-dom@19.0.0-rc-4d577fd2-20241104(react@19.0.0-rc-4d577fd2-20241104))(react@19.0.0-rc-4d577fd2-20241104):
     dependencies:
