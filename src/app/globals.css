@@ -4,6 +4,18 @@
 @tailwind utilities;
 @layer base {
   :root {
-    --radius: 0.5rem
+    --radius: 0.5rem;
+    --mymedia: 300 86.2% 42.7%;
+    --mymedia-foreground: 300 86.6% 43.7%;
+    --myspotify: 61 94% 56%;
+    --myspotify-foreground: 61 68% 64%;
+    --myplayer: 176 94% 56%;
+    --myplayer-foreground: 176 94.4% 56.4%;
+    --myscoreboard: 40 100% 51%;
+    --myscoreboard-foreground: 40 100.4% 51.4%;
+    --myrank: 119 94% 56%;
+    --myrank-foreground: 119 94.4% 56.4%;
+    --myplaylist: 258 52% 48%;
+    --myplaylist-foreground: 258 52.4% 48.4%;
   }
 }

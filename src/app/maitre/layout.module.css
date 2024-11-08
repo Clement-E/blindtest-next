@@ -1,6 +1,7 @@
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(6, 1fr);
     grid-template-areas: 
     "addspotify scoreboard mediaplayer"
     "addplayer scoreboard mediaplayer"
@@ -9,13 +10,13 @@
     "rank scoreboard playlist"
     "rank scoreboard playlist"
     "rank scoreboard playlist";
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .addspotify {
     grid-area: addspotify;
     border: #f3f827 solid 2px;
-
+    
 }
 .addplayer {
     grid-area: addplayer;
