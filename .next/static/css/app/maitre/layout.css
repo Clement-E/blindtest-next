@@ -63,6 +63,49 @@ input {
   color: var(--main-color) !important;
   font-weight: 100 !important;
 }
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/next@15.0.0-canary.56_react-dom@19.0.0-rc-4d577fd2-20241104_react@19.0.0-rc-4d577fd2-20241104_o5ye5xjfs7zgxopj536hp3ifua/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[5].use[2]!./node_modules/.pnpm/next@15.0.0-canary.56_react-dom@19.0.0-rc-4d577fd2-20241104_react@19.0.0-rc-4d577fd2-20241104_o5ye5xjfs7zgxopj536hp3ifua/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[5].use[3]!./src/app/maitre/layout.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.layout_grid__y9tRE {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas: 
+    "addspotify scoreboard mediaplayer"
+    "addplayer scoreboard mediaplayer"
+    "rank scoreboard mediaplayer"
+    "rank scoreboard mediaplayer"
+    "rank scoreboard playlist"
+    "rank scoreboard playlist"
+    "rank scoreboard playlist";
+    gap: 1rem;
+}
+
+.layout_addspotify__jYm49 {
+    grid-area: addspotify;
+    border: #f3f827 solid 2px;
+    
+}
+.layout_addplayer__tSsK3 {
+    grid-area: addplayer;
+    border: #27f8eb solid 2px;
+}
+.layout_rank__SHWIw {
+    grid-area: rank;
+    border: #2bf827 solid 2px;
+}
+.layout_scoreboard__wqwKg {
+    grid-area: scoreboard;
+    border: #ffab07 solid 2px;
+}
+.layout_mediaplayer__ivHQA {
+    grid-area: mediaplayer;
+    border: #f827e3 solid 2px;
+}
+.layout_playlist__b1uog {
+    grid-area: playlist;
+    border: #623bbb solid 2px;
+}
 /*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/.pnpm/next@15.0.0-canary.56_react-dom@19.0.0-rc-4d577fd2-20241104_react@19.0.0-rc-4d577fd2-20241104_o5ye5xjfs7zgxopj536hp3ifua/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[10].use[2]!./node_modules/.pnpm/next@15.0.0-canary.56_react-dom@19.0.0-rc-4d577fd2-20241104_react@19.0.0-rc-4d577fd2-20241104_o5ye5xjfs7zgxopj536hp3ifua/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[10].use[3]!./src/app/ui/MediaPlayer/MediaPlayer.css ***!
   \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
@@ -239,46 +282,4 @@ input {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-}
-/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/.pnpm/next@15.0.0-canary.56_react-dom@19.0.0-rc-4d577fd2-20241104_react@19.0.0-rc-4d577fd2-20241104_o5ye5xjfs7zgxopj536hp3ifua/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[5].use[2]!./node_modules/.pnpm/next@15.0.0-canary.56_react-dom@19.0.0-rc-4d577fd2-20241104_react@19.0.0-rc-4d577fd2-20241104_o5ye5xjfs7zgxopj536hp3ifua/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[5].use[3]!./src/app/maitre/layout.module.css ***!
-  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-.layout_grid__y9tRE {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: 
-    "addspotify scoreboard mediaplayer"
-    "addplayer scoreboard mediaplayer"
-    "rank scoreboard mediaplayer"
-    "rank scoreboard mediaplayer"
-    "rank scoreboard playlist"
-    "rank scoreboard playlist"
-    "rank scoreboard playlist";
-    gap: 2rem;
-}
-
-.layout_addspotify__jYm49 {
-    grid-area: addspotify;
-    border: #f3f827 solid 2px;
-
-}
-.layout_addplayer__tSsK3 {
-    grid-area: addplayer;
-    border: #27f8eb solid 2px;
-}
-.layout_rank__SHWIw {
-    grid-area: rank;
-    border: #2bf827 solid 2px;
-}
-.layout_scoreboard__wqwKg {
-    grid-area: scoreboard;
-    border: #ffab07 solid 2px;
-}
-.layout_mediaplayer__ivHQA {
-    grid-area: mediaplayer;
-    border: #f827e3 solid 2px;
-}
-.layout_playlist__b1uog {
-    grid-area: playlist;
-    border: #623bbb solid 2px;
 }

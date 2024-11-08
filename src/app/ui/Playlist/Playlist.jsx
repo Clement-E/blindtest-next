@@ -5,7 +5,7 @@ function Playlist() {
 
   return (
     <>
-      <Button variant="outline">Button yolo</Button>
+      <Button className="text-myplaylist-foreground" variant="outline">Button yolo</Button>
     </>
   );
 }
