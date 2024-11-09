@@ -9,7 +9,7 @@ function AddSpotify() {
   return (
     <div className="px-4 flex flex-col gap-4 justify-center h-full">
       <div className="flex gap-4 justify-end items-center">
-        <span className="text-myspotify text-3xl">Add Spotify playlist</span>
+        <span className="text-myspotify text-2xl">Add Spotify playlist</span>
         <Image src={spotify} className="size-6" alt="" />  
       </div>
       <div className="flex gap-2">

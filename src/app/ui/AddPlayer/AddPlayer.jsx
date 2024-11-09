@@ -7,7 +7,7 @@ function AddPlayer() {
   return ( 
     <div className="px-4 flex flex-col gap-4 justify-center h-full">
       <div className="flex gap-4 justify-end items-center">
-        <span className="text-myplayer text-3xl">Here comes a new challenger!</span>
+        <span className="text-myplayer text-2xl">Here comes a new challenger!</span>
       </div>
       <div className="flex gap-2">
         <Input className="dark:bg-transparent border-solid dark:border-myplayer"/>

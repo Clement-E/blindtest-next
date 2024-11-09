@@ -30,8 +30,6 @@ module.exports = {
 				"myscoreboard-foreground": "hsl(var(--myscoreboard-foreground))",
 				myrank :"hsl(var(--myrank))",
 				"myrank-foreground": "hsl(var(--myrank-foreground))",
-				myscoreboard :"hsl(var(--myscoreboard))",
-				"myscoreboard-foreground": "hsl(var(--myscoreboard-foreground))",
 				mymedia :"hsl(var(--mymedia))",
 				"mymedia-foreground": "hsl(var(--mymedia-foreground))",
 			}
