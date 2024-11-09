@@ -11,26 +11,6 @@
   align-items: flex-end;
 }
 
-p {
-  font-size: 16px;
-  font-weight: 500;
-  color: var(--main-color);
-  margin: 0;
-}
-.actions {
-  display: flex;
-  align-items: baseline;
-  gap: 1rem;
-  width: 100%;
-}
-.Addspotify-container label {
-  color: #444d2b !important;
-}
-input {
-  color: var(--main-color) !important;
-  font-weight: 100 !important;
-}
-
 /*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/.pnpm/next@15.0.0-canary.56_react-dom@19.0.0-rc-4d577fd2-20241104_react@19.0.0-rc-4d577fd2-20241104_o5ye5xjfs7zgxopj536hp3ifua/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[10].use[2]!./node_modules/.pnpm/next@15.0.0-canary.56_react-dom@19.0.0-rc-4d577fd2-20241104_react@19.0.0-rc-4d577fd2-20241104_o5ye5xjfs7zgxopj536hp3ifua/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[10].use[3]!./src/app/ui/AddPlayer/AddPlayer.css ***!
   \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
@@ -42,26 +22,6 @@ input {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-end;
-}
-
-p {
-  font-size: 16px;
-  font-weight: 500;
-  color: var(--main-color);
-  margin: 0;
-}
-.actions {
-  display: flex;
-  align-items: baseline;
-  gap: 1rem;
-  width: 100%;
-}
-.Addplayer-container label {
-  color: #2c5058 !important;
-}
-input {
-  color: var(--main-color) !important;
-  font-weight: 100 !important;
 }
 /*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/.pnpm/next@15.0.0-canary.56_react-dom@19.0.0-rc-4d577fd2-20241104_react@19.0.0-rc-4d577fd2-20241104_o5ye5xjfs7zgxopj536hp3ifua/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[5].use[2]!./node_modules/.pnpm/next@15.0.0-canary.56_react-dom@19.0.0-rc-4d577fd2-20241104_react@19.0.0-rc-4d577fd2-20241104_o5ye5xjfs7zgxopj536hp3ifua/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[5].use[3]!./src/app/maitre/layout.module.css ***!

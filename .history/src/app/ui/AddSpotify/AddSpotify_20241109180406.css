@@ -1,0 +1,9 @@
+.Addspotify-container {
+  --main-color: #c6f145;
+  border: 2px solid  var(--main-color);
+  padding: .5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+}

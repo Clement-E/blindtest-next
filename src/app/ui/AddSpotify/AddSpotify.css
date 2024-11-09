@@ -7,23 +7,3 @@
   justify-content: flex-start;
   align-items: flex-end;
 }
-
-p {
-  font-size: 16px;
-  font-weight: 500;
-  color: var(--main-color);
-  margin: 0;
-}
-.actions {
-  display: flex;
-  align-items: baseline;
-  gap: 1rem;
-  width: 100%;
-}
-.Addspotify-container label {
-  color: #444d2b !important;
-}
-input {
-  color: var(--main-color) !important;
-  font-weight: 100 !important;
-}

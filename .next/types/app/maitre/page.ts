@@ -1,4 +1,4 @@
-// File: /Users/clement/Documents/PROJECTS/PERSO/blindtest-next/src/app/maitre/page.tsx
+// File: D:\STOCKAGE\WORK\POCs\blindtest-next\src\app\maitre\page.tsx
 import * as entry from '../../../../src/app/maitre/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
