@@ -30,6 +30,6 @@
     ".next/types/**/*.ts",
     "app/lib/placeholder-data.ts",
     "scripts/seed.js"
-  ],
+, "src/app/ui/AddPlayer/AddPlayer.jsx", "src/app/ui/AddPlayer/AddPlayer.jsx"  ],
   "exclude": ["node_modules"]
 }
