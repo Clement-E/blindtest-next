@@ -11,7 +11,7 @@ function AddPlayer() {
       </div>
       <div className="flex gap-2">
         <Input className="dark:bg-transparent border-solid dark:border-myplayer"/>
-        <Button variant="outline" className="dark:bg-myplayer dark:text-black dark:hover:bg-myplayer-foreground dark:hover:text-black">OK</Button>
+        <Button variant="outline" className="dark:bg-myplayer dark:text-black dark:hover:bg-cyan-500 dark:hover:text-black">OK</Button>
       </div>
     </div>
   );

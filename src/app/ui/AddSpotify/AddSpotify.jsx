@@ -14,7 +14,7 @@ function AddSpotify() {
       </div>
       <div className="flex gap-2">
         <Input className="dark:bg-transparent border-solid dark:border-myspotify"/>
-        <Button variant="outline" className="dark:bg-myspotify dark:text-black dark:hover:bg-myspotify-foreground dark:hover:text-black">OK</Button>
+        <Button variant="outline" className="dark:bg-myspotify dark:text-black dark:hover:bg-yellow-300 dark:hover:text-black">OK</Button>
       </div>
     </div>
   );

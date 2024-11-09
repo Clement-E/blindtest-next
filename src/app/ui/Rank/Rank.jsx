@@ -43,7 +43,7 @@ const mockRank = [
             return (
               <div key={rank+index} className="flex justify-between w-full pr-1 gap-2 flex-nowrap">
                   <div className="flex gap-4"> 
-                      <span>{index + 1}</span>
+                      <span className="text-myrank">{index + 1}</span>
                       <span className="text-ellipsis">{rank.name}</span>
                     </div>
                   <div> {rank.score} </div> 
