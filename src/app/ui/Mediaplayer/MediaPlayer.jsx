@@ -9,9 +9,9 @@ function MediaPlayer() {
     <div className="flex flex-col items-center py-8 gap-6">
       <div className="picture border-mymedia bg-gray-700 w-72 aspect-square"></div>
       <div className="actions flex justify-center gap-4 text-mymedia">
-      <CircleArrowLeft className="size-10 hover:text-pink-800" />
-      <CirclePlay className="size-10 hover:text-pink-800" />
-      <CircleArrowRight className="size-10 hover:text-pink-800" />  
+      <CircleArrowLeft className="cursor-pointer size-10 hover:text-pink-800" />
+      <CirclePlay className="cursor-pointer size-10 hover:text-pink-800" />
+      <CircleArrowRight className="cursor-pointer size-10 hover:text-pink-800" />  
       </div>
       <div className="meta flex flex-col w-72">
         <div className="flex gap-4">

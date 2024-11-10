@@ -79,7 +79,7 @@ function Playlist() {
         {
           mockPlaylist.map(song => (
             <div key={song.song} className="flex gap-2 items-center">
-              <CirclePlay className="text-myplaylist w-4 dark:hover:text-purple-800"/>
+              <CirclePlay className="cursor-pointer text-myplaylist w-4 dark:hover:text-purple-800"/>
               <span>{song.song}</span>
               <span> - </span>
               <span>{song.artist}</span>
