@@ -4,21 +4,31 @@ import spotify from '@/public/ico-spotify.svg'
 import Image from 'next/image'
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
-import {useState} from 'react'
+import { useState } from 'react'
 import { createPlaylist } from "@/lib/actions";
+import { useParams } from 'next/navigation';
+import { v4 as uuidv4 } from 'uuid';
 
 function AddSpotify() {
 
-  const [playlist, setPlaylist] = useState('');
+  const [urlPlaylist, setUrlPlaylist] = useState('');
+  const urlParams = useParams();
+  const id = uuidv4();
+
   const handleChange = (e) => {
     console.log(e.target.value);
-    setPlaylist(e.target.value)
-  }
-  const handleSubmit = () => {
-    console.log(playlist);
-    createPlaylist(playlist)
+    setUrlPlaylist(e.target.value)
   }
 
+  const handleSubmit = () => {
+    createPlaylist(
+      {
+        id:id,
+        url:urlPlaylist,
+        game_id:urlParams.id
+      }
+    )
+  }
 
   return (
     <div className="px-4 flex flex-col gap-4 justify-center h-full">
