@@ -8,4 +8,5 @@ export type Games = {
 export type Playlist = {
     id: string;
     url: string;
+    game_id: string;
 }
