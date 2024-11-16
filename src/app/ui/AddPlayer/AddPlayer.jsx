@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 import { v4 as uuidv4 } from 'uuid';
 import { useParams } from 'next/navigation';
 import { createPlayer } from '@/lib/actions'
-import { useState } from 'react'
+import React, { useState } from 'react'
 
 function AddPlayer() {
 

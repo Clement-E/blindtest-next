@@ -3,6 +3,7 @@
 import "./Scoreboard.css";
 import { Button } from "@/components/ui/button"
 import { fetchPlayersByRank, updatePlayerScore } from "@/lib/actions";
+import React from 'react'
 
 
 async function Scoreboard() {

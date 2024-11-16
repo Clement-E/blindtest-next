@@ -1,5 +1,6 @@
 import "./Rank.css";
 import { fetchPlayersByRank } from "@/lib/actions";
+import React from 'react'
 
 async function Rank() {
   

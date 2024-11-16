@@ -1,5 +1,6 @@
 import "./MediaPlayer.css";
 import { CircleArrowRight, CircleArrowLeft, CirclePause, CirclePlay } from 'lucide-react';
+import React from 'react'
 
 function MediaPlayer() {
 

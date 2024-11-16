@@ -1,5 +1,6 @@
 import "./Playlist.css";
 import { CirclePlay } from 'lucide-react';
+import React from 'react'
 
 function Playlist() {
 
